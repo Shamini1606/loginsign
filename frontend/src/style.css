@@ -1,0 +1,85 @@
+/* General body */
+body {
+    background-color: #e3f2fd;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for forms */
+  .card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Headings */
+  h2 {
+    color: #1976d2;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #90caf9;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1976d2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0d47a1;
+  }
+  
+  /* Register link */
+  .link-text {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .link-text a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Flex inputs for Email + Password on the same row */
+  input-inline {
+    display: inline-block;
+    width: calc(50% - 10px);
+  }
+  .password-wrapper {
+    position: relative;
+    }
+    .password-wrapper .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    }  
